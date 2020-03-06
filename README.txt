@@ -1,0 +1,18 @@
+Files
+NumbersToWords
+   - NumbersToWords		(Source Code)
+   - NumbersToWords.Test	(Unit Tests)
+   - netcoreapp2.2		(Console App)
+   - NumbersToWords.sln		
+   - README.txt
+
+Limitations/Assumptions
+- Max number limit is 9223372036854775807
+- Max decimal limit is 2 digits
+- Only convert to english word, no internationlise implementation 
+- .Net Core 2.2 runtime is required
+
+
+Execution
+dotnet .\netcoreapp2.2\NumbersToWords.dll
+
